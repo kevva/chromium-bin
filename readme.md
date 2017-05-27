@@ -25,7 +25,7 @@ execFile(chromium, ['https://github.com'], err => {
 ## CLI
 
 ```
-$ npm install --global optipng-bin
+$ npm install --global chromium-bin
 ```
 
 ```
