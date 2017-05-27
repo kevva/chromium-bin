@@ -1,0 +1,41 @@
+{
+  "name": "chromium-bin",
+  "version": "0.0.0",
+  "description": "Chromium wrapper that makes it seamlessly available as a local dependency",
+  "license": "MIT",
+  "repository": "kevva/chromium-bin",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "bin": {
+    "chromium": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "postinstall": "node lib/install.js",
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "bin-wrapper",
+    "chrome",
+    "chromium"
+  ],
+  "dependencies": {
+    "bin-wrapper": "^3.0.2",
+    "execa": "^0.6.3",
+    "got": "^6.7.1",
+    "logalot": "^2.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "bin-check": "^4.0.1",
+    "xo": "^0.17.0"
+  }
+}
