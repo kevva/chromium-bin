@@ -1,6 +1,6 @@
 {
   "name": "chromium-bin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Chromium wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
   "repository": "kevva/chromium-bin",
